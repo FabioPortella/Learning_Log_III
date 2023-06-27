@@ -66,7 +66,6 @@ def new_entry(request, topic_id):
     }
     return render(request, 'learning_logs/new_entry.html', context)
 
-#TODO Implementar view para edição de um Topic
 
 def edit_entry(request, entry_id):
     """Edita uma entrada existente"""
